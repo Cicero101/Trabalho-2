@@ -1,7 +1,11 @@
+import './styles.css';
+import Router from "./router";
+
+
 function App() {
   return (
     <div className="App">
-      <p>Teste</p>
+      <Router></Router>
     </div>
   );
 }
